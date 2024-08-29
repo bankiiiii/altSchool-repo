@@ -1,87 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
-  <title>AltSchool Africa Courses</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Africa Courses</title>
+    <link rel="stylesheet" href="courses-styles.css"> 
 </head>
-
 <body>
 
-    <nav>
-
-        <ul>
-
-            <li><a href="index.html">Back</a></li>
-
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Back</a></li>
         </ul>
-
     </nav>
 
-    
-
-  <div>
-
- 
-
-  <h1>AltSchool Africa Courses</h1>
-
-  <table>
-
-    <div>
-
-    <thead>
-
-      <tr>
-
-        <th> <h3>School</h3></th>
-
-        <th> <h3>Courses</h3></th>
-
-      </tr>
-
-    </thead>
-
-  </div>
-
-    <tbody>
-
-      <tr>
-
-        <td> <p> SOE (School of Engineering) </p> <hr> </td>
-
-        <td> <p>Frontend Engineering  | Backend Engineering |  Cloud Engineering  |  Cybersecurity</p> <hr> </td>
-
-      </tr>
-
-      <tr>
-
-        <td> <p>SOP (School of Product)</p> <hr></td>
-
-        <td> <p> Product Design  | Marketing | Management </p> <hr> </td>
-
-      </tr>
-
-      <tr>
-
-        <td><p>SOD (School of Data)</p> <hr></td>
-
-        <td><p>Data Analysis | Science |  Engineering</p> <hr></td>
-
-      </tr>
-
-    </tbody>
-
-  </table>
-
-  </div>
-
- 
-
-</div>
+    <div class="courses-container">
+        <h1>AltSchool Africa Courses</h1>
+        <table class="courses-table">
+            <thead>
+                <tr>
+                    <th><h3>School</h3></th>
+                    <th><h3>Courses</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="school-name"><p>SOE (School of Engineering)</p><hr></td>
+                    <td class="course-description"><p>Frontend Engineering | Backend Engineering | Cloud Engineering | Cybersecurity</p><hr></td>
+                </tr>
+                <tr>
+                    <td class="school-name"><p>SOP (School of Product)</p><hr></td>
+                    <td class="course-description"><p>Product Design | Marketing | Management</p><hr></td>
+                </tr>
+                <tr>
+                    <td class="school-name"><p>SOD (School of Data)</p><hr></td>
+                    <td class="course-description"><p>Data Analysis | Science | Engineering</p><hr></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
-
 </html>

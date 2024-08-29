@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h4 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #2980b9;
+    padding: 1rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #f1c40f;
+}
+
+
+.title {
+    margin-top: 20px;
+}
+
+
+.bio-section {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bio-header {
+    color: #2980b9;
+}
+
+.bio-content {
+    margin: 10px 0;
+}
+
+
+.test-message {
+    color: #e74c3c;
+}
+
+.test-content {
+    padding: 10px;
+    border: 1px dashed #e74c3c;
+    background-color: #fff3f3;
+    border-radius: 8px;
+}
+
+
+.back-to-top-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-to-top-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.back-to-top-button:hover {
+    background-color: #1c5980;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2980b9;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
