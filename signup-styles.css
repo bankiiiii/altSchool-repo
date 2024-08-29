@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
 }
 
@@ -119,7 +119,7 @@ body {
 }
 
 /* -----------Media Queries-------------- */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .form-group {
         width: 100%;
     }
@@ -127,4 +127,4 @@ body {
     .signup-container {
         padding: 20px;
     }
-} */
+}
