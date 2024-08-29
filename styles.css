@@ -60,7 +60,9 @@ h1, h2, h4 {
 }
 
 .bio-content {
+    display: flex;
     margin: 10px 0;
+    justify-content: center;
 }
 
 
